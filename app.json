@@ -1,0 +1,15 @@
+﻿{
+  "name": "Direct Link",
+  "description": "Este bot está creado para hacer los link directos de la uclv.",
+  "env": {
+    "bot_token": {
+      "description": "El token del bot",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ]
+}
